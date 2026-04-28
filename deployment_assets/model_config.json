@@ -1,0 +1,19 @@
+{
+  "input_dim": 72,
+  "latent_dim": 16,
+  "d_model": 64,
+  "nhead": 4,
+  "n_layers": 2,
+  "n_cont": 6,
+  "n_bin": 22,
+  "cat_sizes": [
+    4,
+    10,
+    4,
+    8,
+    11,
+    3,
+    4
+  ],
+  "n_clusters": 5
+}
