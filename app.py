@@ -3,20 +3,6 @@ Uganda National TB Survey — TTVAE Risk Sequencing System
 Transformer-based Tabular Variational Autoencoder · Deployment App
 Aligned with training notebook: Uganda_TB_TTVAE_Enhanced_Final
 """
-import subprocess
-import sys
-
-def install_torch():
-    try:
-        import torch
-    except ImportError:
-        subprocess.check_call([
-            sys.executable, "-m", "pip", "install",
-            "torch", "--quiet"
-        ])
-
-install_torch()
-
 import streamlit as st
 import numpy as np
 import pandas as pd
