@@ -266,7 +266,8 @@ with st.sidebar:
     st.divider()
     st.markdown("### Model Assets")
     ddir=st.text_input("Deployment folder",
-        value="results_full/ttvae_results/deployment_assets",
+        #value="results_full/ttvae_results/deployment_assets",
+		value="deployment_assets",
         help="Folder with ttvae_best.pth, kmeans_model.joblib, preprocessor.joblib and JSON configs")
     if st.button("⟳  Load Model",use_container_width=True):
         with st.spinner("Loading…"):
